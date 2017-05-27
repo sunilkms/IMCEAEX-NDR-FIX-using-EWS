@@ -1,3 +1,6 @@
+#Import Module for importing Credentiles
+. "D:\sunil\Export-and-GetCred.ps1"
+
 # Define UPN of the Account that has impersonation rights
 function MoveFixedItems {
 param ($items=10)
